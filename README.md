@@ -1,4 +1,7 @@
-# GuauSeguro V3
-Versión SEO orientada a España: página pilar, clusters comerciales, recomendador, comparador, páginas de confianza, sitemap y robots.
-Fecha de revisión: 27/08/2026.
-Importante: los precios y condiciones son referencias y deben comprobarse en las webs oficiales antes de contratar.
+# GuauSeguro V4 — Comparador
+Comparador estático de seguros para perros en España.
+- 5 compañías / 10 productos de referencia.
+- Filtros por cobertura, edad senior, PPP y presupuesto.
+- Ordenación explicable por encaje, no por comisión.
+- Fuentes oficiales enlazadas.
+- Precios y condiciones revisados 27/08/2026; comprobar antes de contratar.
