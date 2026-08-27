@@ -1,7 +1,4 @@
-# GuauSeguro — versión final de desarrollo
-
-Incluye recomendador, comparador dinámico, enlaces oficiales, perfiles y guías.
-
-Datos consultados: 27/08/2026. Los precios son referencias públicas, no cotizaciones.
-
-Antes de monetizar: añadir aviso legal, privacidad, cookies, política editorial, disclosure de afiliación, Search Console, Analytics y revisar todos los datos jurídicos/contractuales.
+# GuauSeguro V3
+Versión SEO orientada a España: página pilar, clusters comerciales, recomendador, comparador, páginas de confianza, sitemap y robots.
+Fecha de revisión: 27/08/2026.
+Importante: los precios y condiciones son referencias y deben comprobarse en las webs oficiales antes de contratar.
