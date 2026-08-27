@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>GuauSeguro — Comparador de seguros para perros</title>
+<meta name="description" content="Compara seguros para perros en España por responsabilidad civil, salud, precio y necesidades de tu perro.">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header><a class="logo" href="#inicio">🐾 GuauSeguro</a><nav><a href="#recomendador">Encuentra tu seguro</a><a href="#comparador">Comparador</a><a href="#guias">Guías</a><a href="#faq">FAQ</a></nav></header>
+
+<main>
+<section id="inicio" class="hero"><div><span class="eyebrow">SEGUROS PARA PERROS · ESPAÑA</span><h1>El seguro de tu perro, explicado sin líos.</h1><p class="lead">Dinos qué necesitas y te enseñamos qué modalidad tiene más sentido. Después, compara coberturas y precios de referencia.</p><a class="cta" href="#recomendador">Encontrar mi opción →</a><p class="tiny">GuauSeguro es una web informativa independiente. No somos una aseguradora. Los precios son referencias públicas y pueden cambiar.</p></div><div class="hero-box"><div class="dog">🐶</div><b>Compara por lo que importa</b><span>Precio · RC · veterinario · límites · carencias</span></div></section>
+
+<section id="recomendador" class="section"><div class="title"><span class="eyebrow">01 · RECOMENDADOR</span><h2>Encuentra tu punto de partida</h2><p>Una orientación inicial. No es una cotización ni una recomendación financiera o aseguradora personalizada.</p></div>
+<form id="finder" class="finder">
+<div><label>Edad del perro</label><select id="age" required><option value="">Selecciona</option><option value="young">0–7 años</option><option value="senior">8 años o más</option></select></div>
+<div><label>¿Qué quieres cubrir?</label><select id="need" required><option value="">Selecciona</option><option value="rc">Daños a terceros (RC)</option><option value="health">Gastos y servicios veterinarios</option><option value="both">Ambas</option></select></div>
+<div><label>¿Es PPP?</label><select id="ppp" required><option value="">Selecciona</option><option value="no">No</option><option value="yes">Sí / puede estar sujeto a requisitos PPP</option></select></div>
+<div><label>Presupuesto mensual</label><select id="budget" required><option value="">Selecciona</option><option value="low">Hasta 10 €</option><option value="mid">10–25 €</option><option value="high">Más de 25 €</option></select></div>
+<button class="cta" type="submit">Ver opciones →</button><div id="output" class="output" hidden></div></form></section>
+
+<section id="comparador" class="section alt"><div class="title"><span class="eyebrow">02 · COMPARADOR</span><h2>Opciones reales para empezar a comparar</h2><p>Precios “desde” publicados por las compañías. Pulsa para visitar la web oficial y comprobar el precio actual.</p></div>
+<div id="results" class="results"></div>
+<p class="tiny">Última revisión: 27 de agosto de 2026. Los datos pueden cambiar; antes de contratar, revisa la oferta y las condiciones oficiales.</p></section>
+
+<section id="guias" class="section"><div class="title"><span class="eyebrow">03 · GUÍAS</span><h2>Aprende antes de contratar</h2></div><div class="grid">
+<a class="card" href="guia-rc.html"><b>🛡️</b><h3>Responsabilidad civil</h3><p>Qué cubre y qué límites mirar.</p></a>
+<a class="card" href="guia-veterinario.html"><b>🏥</b><h3>Seguro veterinario</h3><p>Reembolso, clínicas y servicios.</p></a>
+<a class="card" href="guia-precio.html"><b>💶</b><h3>¿Cuánto cuesta?</h3><p>Cómo interpretar un precio “desde”.</p></a>
+<a class="card" href="guia-franquicia.html"><b>🧾</b><h3>Franquicias</h3><p>Cómo pueden cambiar el coste real.</p></a>
+</div></section>
+
+<section class="section alt"><div class="title"><span class="eyebrow">04 · PERFILES</span><h2>No todos los perros necesitan lo mismo.</h2></div><div class="profiles">
+<div><b>🐶 Cachorro</b><p>Prioriza prevención, vacunas, límites y carencias.</p></div>
+<div><b>🧓 Senior</b><p>Comprueba edad máxima de contratación y condiciones de renovación.</p></div>
+<div><b>🦮 PPP</b><p>Comprueba capital de RC y requisitos legales específicos.</p></div>
+</div></section>
+
+<section id="faq" class="section"><div class="title"><span class="eyebrow">05 · FAQ</span><h2>Preguntas frecuentes</h2></div>
+<details><summary>¿Cuál es el mejor seguro para perros?</summary><p>No hay uno universalmente mejor. La elección depende de si buscas principalmente RC, servicios veterinarios, reembolso, límites, edad y presupuesto.</p></details>
+<details><summary>¿El precio que aparece aquí es el que pagaré?</summary><p>No necesariamente. Son precios de partida publicados por las compañías. La cotización final puede depender de modalidad, raza, condición PPP y otros datos.</p></details>
+<details><summary>¿GuauSeguro vende seguros?</summary><p>No. Esta web es informativa. Si incorporamos afiliación en el futuro, se identificará claramente.</p></details>
+</section>
+</main>
+<footer><div class="logo">🐾 GuauSeguro</div><p>Guía independiente sobre seguros para perros en España.</p><p>Datos revisados: 27/08/2026</p></footer>
+<script src="script.js"></script>
+</body></html>
